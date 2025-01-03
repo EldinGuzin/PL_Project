@@ -1,13 +1,42 @@
 GEM
+  remote: https://rubygems.org/
   specs:
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    childprocess (5.1.0)
+      logger (~> 1.5)
     colorize (1.1.0)
+    fileutils (1.7.3)
+    json (2.9.1)
+    launchy (3.0.1)
+      addressable (~> 2.8)
+      childprocess (~> 5.0)
+    logger (1.6.4)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    public_suffix (6.0.1)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.2)
+    wisper (2.0.1)
 
 PLATFORMS
   ruby
   x86_64-linux
 
 DEPENDENCIES
-  colorize (~> 1.1)
+  colorize
+  fileutils
+  json
+  launchy
+  tty-prompt
 
 BUNDLED WITH
    2.5.17

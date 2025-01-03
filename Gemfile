@@ -1,1 +1,6 @@
-gem 'colorize', '~> 1.1'
+source 'https://rubygems.org'
+gem 'colorize'
+gem 'json'
+gem 'tty-prompt'
+gem 'fileutils'
+gem 'launchy'
